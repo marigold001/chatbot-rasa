@@ -1,0 +1,178 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: learn_more
+  examples: |
+    - tell me more about the website
+    - please introduce me to the website
+    - can you introduce me to what I can find on the website
+    - tell me more about each section
+    - Nina tell me more about yourself
+    - what can you help me with
+    - Hi Nina I am [name]
+    - Hi Nina my name is [name]
+    - hi nina my name is [name]
+    - hello nina
+    - hi nina
+    - Hey Nina
+- intent: what_is_css
+  examples: |
+    - What is CSS?
+    - tell me what is CSS about?
+    - tell me more about what is css
+    - what is css
+    - What is CSS
+    - what can we find on the what is css page
+    - what can we find on the what is css page?
+- intent: getting_started_with_css
+  examples: |
+    - getting started with css
+    - what is getting started with css
+    - tell me more about getting started with css
+    - explain to me getting started with css
+    - tell me about getting started with css
+    - what can we find on the getting started with css page
+- intent: css_structure
+  examples: |
+    - how css is structured
+    - css structure
+    - css structured
+    - explain to me how css is structured
+    - tell me about css structure
+    - what can we find on the css structure page
+- intent: css_works
+  examples: |
+    - how css works
+    - css works
+    - tell me more about how css works
+    - explain to me how css works
+    - tell me about how css works
+    - what can we find on the css works page
+- intent: css_quizz
+  examples: |
+    - css quizz
+    - what is css quizz
+    - tell me more about css quizz
+    - explain to me about css quizz
+    - tell me about css quizz
+    - what can we find on the css quizz page
+- intent: css_colors
+  examples: |
+    - css colors
+    - what is css colors
+    - tell me more about css colors
+    - explain to me about css colors
+    - tell me about css colors
+    - what can we find on the css colors page
+- intent: css_backgrounds
+  examples: |
+    - css backgrounds
+    - what is css backgrounds
+    - tell me more about css backgrounds
+    - explain to me about css backgrounds
+    - tell me about css backgrounds
+    - what can we find on the css backgrounds page
+- intent: css_borders
+  examples: |
+    - css borders
+    - what is css borders
+    - tell me more about css borders
+    - explain to me about css borders
+    - tell me about css borders
+    - what can we find on the css borders page
+- intent: css_margins_padding
+  examples: |
+    - css margins & padding
+    - css margins and padding
+    - what is getting css margins & padding
+    - what is getting css margins and padding
+    - tell me more about css margins & padding
+    - tell me more about css margins and padding
+    - explain to me about css margins & padding
+    - explain to me about css margins and padding
+    - tell me about css margins & padding
+    - tell me about css margins and padding
+    - what can we find on the css margins and padding page

@@ -1,0 +1,75 @@
+version: "2.0"
+
+stories:
+
+- story: happy path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: what_is_css
+  - action: utter_what_is_css
+
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: getting_started_with_css
+  - action: utter_getting_started_with_css
+
+- story: happy path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_structure
+  - action: utter_css_structure
+
+- story: happy path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_works
+  - action: utter_css_works
+
+- story: happy path 5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_quizz
+  - action: utter_css_quizz
+
+- story: happy path 6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_colors
+  - action: utter_css_colors
+
+- story: happy path 7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_backgrounds
+  - action: utter_css_backgrounds
+
+- story: happy path 8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_borders
+  - action: utter_css_borders
+
+- story: happy path 9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_introduction_two
+  - intent: css_margins_padding
+  - action: utter_css_margins_padding

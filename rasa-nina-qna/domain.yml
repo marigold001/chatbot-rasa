@@ -1,0 +1,64 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- learn_more
+- stop
+- css_colors
+- greet
+- css_backgrounds
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- what_is_css
+- getting_started_with_css
+- css_structure
+- css_works
+- css_quizz
+- css_borders
+- css_margins_padding
+responses:
+  utter_greet:
+  - text: Hey!
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_introduction:
+  - text: I am Nina a Q&A chatbot. Write the name of the section and I will give you a brief about it.
+  utter_introduction_two:
+  - text: I am Nina the website assistant. Write the name of a section and I will give you a short overview about it.
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_what_is_css:
+  - text: This article explains what CSS is, with a simple syntax example, and also covers some key terms about the language.
+  utter_getting_started_with_css:
+  - text: In this article we will take a simple HTML document and apply CSS to it, learning some practical things about the language along the way.
+  utter_css_structure:
+  - text: 'In this article we will examine the structure of CSS. We will examine three methods of applying CSS to a document: with an external stylesheet, with an internal stylesheet, and with inline styles.'
+  utter_css_works:
+  - text: This is a very simplified version of what happens how css works when a browser loads the webpage.
+  utter_css_quizz:
+  - text: You can test your CSS skills with CSS Tutors Quiz. The test is not official, it's just a nice way to see how much you know, or don't know, about CSS.
+  utter_css_colors:
+  - text: In this article you can learn more about how to use the CSS color property for different elements.
+  utter_css_backgrounds:
+  - text: In this article you learn more about CSS background property. The CSS background properties are used to add background effects for elements.
+  utter_css_borders:
+  - text: In this article you learn more about CSS borders property. The CSS border properties allow you to specify the style, width, and color of an element's border.
+  utter_css_margins_padding:
+  - text: In this article you learn more about CSS margins property. Margins are used to create space around elements, outside of any defined borders.
+actions:
+- utter_css_backgrounds
+- utter_css_colors
+- utter_greet
+- utter_introduction_two
